@@ -21,5 +21,6 @@
 
 ## Progress:
 ### 01_Basics:
+- Why and when you need to learn TypeScript
 - Revision of JavaScript data types
   - https://www.w3schools.com/js/js_datatypes.asp
