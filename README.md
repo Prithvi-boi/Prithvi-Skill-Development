@@ -15,3 +15,4 @@ The Repository contains all the learning resources, notes, hands-on project and 
 
 ## Currently learning:
 ### TypeScript
+### TypeScript + React
