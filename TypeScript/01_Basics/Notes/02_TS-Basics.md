@@ -64,7 +64,7 @@ https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 
 # How TypeScript Works Internally
 
-![TypeScriptWorkingDiagram](../../src/TypeScriptWorkingDiagram.png)
+![TypeScriptWorkingDiagram](../../assets/TypeScriptWorkingDiagram.png)
 
 There are 3 main stages:
 1. Frontend

@@ -6,6 +6,6 @@ Answer is in the starting of this video: https://youtu.be/kvP6hDXWy88?si=lFqFm1X
 
 ---
 
-![Js Datatypes FlowChart](../src/01_image.png)
+![Js Datatypes FlowChart](../../assets/01_image.png)
 
 Learn from : https://www.w3schools.com/js/js_datatypes.asp
