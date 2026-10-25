@@ -20,6 +20,10 @@
 - Interface
 
 ## Progress:
+
+TypeScript Official HandbooK:
+https://www.typescriptlang.org/docs/handbook/intro.html
+
 ### 01_Basics:
 - Why and when you need to learn TypeScript
 - Revision of JavaScript data types

@@ -59,3 +59,132 @@ https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
 | Examples | Number, String, Boolean | Object, Array, Function |
 
 > **Note:** JavaScript has 7 primitive data types. Arrays, functions, dates, maps and sets are all objects. TypeScript adds a static type system and additional type constructs on top of JavaScript.
+
+---
+
+# How TypeScript Works Internally
+
+![TypeScriptWorkingDiagram](../../src/TypeScriptWorkingDiagram.png)
+
+There are 3 main stages:
+1. Frontend
+2. Semantic Analysis
+3. Backend
+
+## 1. Frontend – Understanding your code
+
+TypeScript Passes the main source file (ex: file.ts) to lexer
+
+>**Lexer**
+- Lexer reads your TypeScript source code
+- breaks it into small pieces called as __Tokens__
+
+| code | tokens |
+|---|---|
+|let age: number = 21 | let
+|---| age
+|---| :
+|---| number
+|---| =
+|---| 21
+
+---
+
+>**Parser**
+- Takes those tokens
+- Understands how they are connected
+
+Then creates something called an AST (
+[Abstract Syntax Tree](https://www.google.com/search?q=what+is+abstract+syntax+tree&oq=What+is+Abstract+synt&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCggBEAAYgAQYtAcyBggCEEUYOTIKCAMQABiABBi0BzIKCAQQABiABBi0BzIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhge0gEINDU2MWowajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8) ).
+
+For Example
+```
+let age: number = 21
+```
+
+The Parser understands that:
+- let declares a variable.
+- age is the variable name.
+- number is its type.
+- 21 is its assigned value.
+
+## 2. Semantic Analysis – Checking your code
+
+>**Binder**
+
+The Binder creates a __Symbol table__.
+
+A symbol table is basically a record of the identifiers (variables, functions, classes, etc.) declared in your code.
+
+Identifier| Type
+--- | ---
+age	| number
+name |	string
+
+It helps TypeScript understand where variables are declared and where they can be accessed.
+
+---
+>**Type Checker**
+
+The Type Checker checks whether you're using values with the correct types.
+
+Example:
+```
+let age: number = 21;
+age = "Prithvi"; // Error!
+```
+
+It also checks things like:
+- Whether function arguments have the correct types.
+- Whether object properties exist.
+- Whether interfaces and types are being followed.
+- Whether operations are valid for the given types.
+
+## 3. Backend – Generating JavaScript
+
+>**Transformer**
+
+The Transformer modifies the AST into a form suitable for JavaScript output.
+For example, it removes TypeScript-only syntax, such as type annotations.
+
+Input:
+```
+let age: number = 21;
+```
+
+After transformation:
+```
+let age = 21;
+```
+
+Note: JavaScript doesn't understand TypeScript's type annotations.
+
+---
+
+> **Emitter**
+
+The Emitter takes the transformed code and generates the final JavaScript file.
+
+For example:
+
+TypeScript input:
+```
+interface User {
+    name: string;
+    age: number;
+}
+
+const user: User = {
+    name: "Prithvi",
+    age: 21
+};
+```
+
+
+Emitted JavaScript:
+```
+const user = {
+    name: "Prithvi",
+    age: 21
+};
+```
