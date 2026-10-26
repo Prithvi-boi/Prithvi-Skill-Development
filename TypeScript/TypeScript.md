@@ -36,3 +36,4 @@ https://www.typescriptlang.org/docs/handbook/intro.html
   - Non-exception Failures - [[docs]](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#non-exception-failures)
   - Type tooling - [[docs]](https://www.typescriptlang.org/docs/handbook/2/basic-types.html#types-for-tooling)
 - TypeScript Installation, compiling and compiler options - [[Notes]](./01_Basics/Notes/03_TSC%20and%20Installation.md), [[Demo folder]](./01_Basics/03_Demo/tsconfig.json) 
+- Typescript Fundamentals - [[Notes]](./01_Basics/Notes/04_TypeScript-Fundamentals.md)
