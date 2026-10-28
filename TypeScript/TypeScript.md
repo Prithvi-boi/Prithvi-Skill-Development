@@ -42,3 +42,8 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - Type inference - [[Notes]](./02_Types/Notes/01_TypesInference.md), [[Code]](./02_Types/Demo/01_TypesInference.ts)
 - Primitives types - [[Notes]](./02_Types/Notes/02_Primitives.md)
 - Special types - [[Notes]](./02_Types/Notes/03_Specials.md)
+- Object Types  
+  1. Arrays - [[Notes]](./02_Types/Notes/04_1-Arrays.md)
+  2. Tuples - [[Notes]](./02_Types/Notes/04_2-Tuples.md)
+  3. Object - [[Notes]](./02_Types/Notes/04_3-Object.md)
+  4. Enum - [[Notes]](./02_Types/Notes/04_4-Enum.md)
