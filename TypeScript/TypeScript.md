@@ -40,3 +40,5 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 
 ### 02_Types:
 - Type inference - [[Notes]](./02_Types/Notes/01_TypesInference.md), [[Code]](./02_Types/Demo/01_TypesInference.ts)
+- Primitives types - [[Notes]](./02_Types/Notes/02_Primitives.md)
+- Special types - [[Notes]](./02_Types/Notes/03_Specials.md)
