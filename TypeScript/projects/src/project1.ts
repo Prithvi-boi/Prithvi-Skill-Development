@@ -147,9 +147,9 @@ function Update_Student(
                         console.log(`${i}. ${key}`)
                     })
                     let department = Number(input('select department: '))
-                    Object.keys(Deparments).forEach((key,i) => {
+                    Object.values(Deparments).forEach((val,i) => {
                         if (i === department) {
-                            student.department = key
+                            student.department = val
                         }
                     })
                     break;

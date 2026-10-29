@@ -47,4 +47,4 @@ https://www.typescriptlang.org/docs/handbook/intro.html
   2. Tuples - [[Notes]](./02_Types/Notes/04_2-Tuples.md)
   3. Object - [[Notes]](./02_Types/Notes/04_3-Object.md)
   4. Enum - [[Notes]](./02_Types/Notes/04_4-Enum.md)
-- Class - [[Notes]]
+- Class - [[Notes]](./02_Types/Notes/05_Class.md)
