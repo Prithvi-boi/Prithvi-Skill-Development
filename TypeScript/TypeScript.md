@@ -54,3 +54,9 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - `as any` and `as const` - [[Notes]](./03_Assertions/Notes/02_as-and-and-const.md)
 - non null assertion `!` - [[Notes]](./03_Assertions/Notes/03_non-null-assertion.md)
 - `satisfies` keyword - [[Notes]](./03_Assertions/Notes/04_satisfiesOperator.md)
+
+### 04_Combining_types
+- Union Types `|` - [[Notes]](./04_Combining_types/Notes/01_Union.md)
+- Intersection Types
+- Type alias
+- KeyOf operator
