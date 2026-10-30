@@ -48,3 +48,9 @@ https://www.typescriptlang.org/docs/handbook/intro.html
   3. Object - [[Notes]](./02_Types/Notes/04_3-Object.md)
   4. Enum - [[Notes]](./02_Types/Notes/04_4-Enum.md)
 - Class - [[Notes]](./02_Types/Notes/05_Class.md)
+
+### 03_Assertions
+- `as [type]` - [[Notes]](./03_Assertions/Notes/01_as-[type].md)
+- `as any` and `as const` - [[Notes]](./03_Assertions/Notes/02_as-and-and-const.md)
+- non null assertion `!` - [[Notes]](./03_Assertions/Notes/03_non-null-assertion.md)
+- `satisfies` keyword - [[Notes]](./03_Assertions/Notes/04_satisfiesOperator.md)
