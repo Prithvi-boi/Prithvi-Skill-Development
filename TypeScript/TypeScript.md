@@ -58,5 +58,5 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 ### 04_Combining_types
 - Union Types `|` - [[Notes]](./04_Combining_types/Notes/01_Union.md)
 - Intersection Types `&` = [[Notes](./04_Combining_types/Notes/02_Intersection.md)]
-- Type alias
-- KeyOf operator
+- KeyOf operator - [[Notes]](./04_Combining_types/Notes/03_Keyof_and_Alias.md)
+- Type alias - [[Notes]](./04_Combining_types/Notes/03_Keyof_and_Alias.md)
