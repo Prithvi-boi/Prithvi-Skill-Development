@@ -62,10 +62,9 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - Type alias - [[Notes]](./04_Combining_types/Notes/03_Keyof_and_Alias.md)
 
 ### 05_Narrowing
-- typeOf guard - [[Notes]](./05_Narrowing/Notes/01_typeOf_Checks.md)
+- `typeOf` guard - [[Notes]](./05_Narrowing/Notes/01_typeOf_Checks.md)
 - truthiness checks - [[Notes]](./05_Narrowing/Notes/02_Truthiness_and_instanceOf.md#1-truthiness-checks)
-- instanceOf guard - [[Notes]](./05_Narrowing/Notes/02_Truthiness_and_instanceOf.md#2-instanceof-operator)
-- in operator
-- custom type guard
-- Equality
-- Type predicates
+- `instanceOf` guard - [[Notes]](./05_Narrowing/Notes/02_Truthiness_and_instanceOf.md#2-instanceof-operator)
+- Equality operators - [[Notes]](./05_Narrowing/Notes/03_Equality%20Narrowing%20and%20Type%20Predicates.md)
+- Type predicates `is` or custom type guard - [[Notes]](./05_Narrowing/Notes/03_Equality%20Narrowing%20and%20Type%20Predicates.md)
+- `in` operator - [[Notes]](./05_Narrowing/Notes/04_In_Opps.md)
