@@ -60,3 +60,7 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - Intersection Types `&` = [[Notes](./04_Combining_types/Notes/02_Intersection.md)]
 - KeyOf operator - [[Notes]](./04_Combining_types/Notes/03_Keyof_and_Alias.md)
 - Type alias - [[Notes]](./04_Combining_types/Notes/03_Keyof_and_Alias.md)
+
+### 05_Narrowing
+- typeOf checks - [[Notes]](./05_Narrowing/Notes/01_typeOf_Checks.md)
+- truthiness checks
