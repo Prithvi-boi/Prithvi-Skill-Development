@@ -126,3 +126,19 @@ TypeScript automatically identifies the correct object type based on the `status
 - Prevents accessing properties that do not exist on a particular object type.
 
 ---
+
+# Practice Question - TypeScript Type Narrowing and Type Guards
+1. Write a function `describe(value: string | number): string` that returns the uppercased text if it gets a string, and the number with 2 decimal places if it gets a number. Use `typeof` narrowing only, no type assertions (`as`). Test it with `"hello"` and `42`.
+
+2. Write `formatValue(value: string | number | boolean | null | undefined): string` that returns: a trimmed + uppercased string for strings, 2 decimal places for numbers, `"Yes"` / `"No"` for booleans, `"Nothing (null)"` for null and `"Nothing (undefined)"` for undefined. Make sure `null` is handled before anything that could treat it as an object. Test all 5 cases.
+
+3. Create `type Success = { status: "success"; data: string }` and `type Failure = { status: "error"; message: string }` with `type ApiResult = Success | Failure`. Write `getMessage(result: ApiResult): string` that returns the data for success and `"Error: " + message` for failure. Then create two sample objects, one of each type, and log what `getMessage` returns for both.
+
+4. Build a shapes calculator. Define `Circle` (`kind: "circle"`, `radius`), `Rectangle` (`kind: "rectangle"`, `width`, `height`) and `Triangle` (`kind: "triangle"`, `base`, `height`), combine them into a `Shape` union, and write `area(shape: Shape): number` using a `switch` on `kind`. No type assertions. Test with one shape of each kind.
+
+5. Build a request state handler.
+   - a) Define 4 states as a discriminated union: `idle`, `loading`, `success` (has `data: string[]`), `error` (has `message: string` and `code: number`).
+   - b) Write `render(state: RequestState): string` using a `switch` that returns a different line for each state (the success line should show how many items came back, the error line should include the code and message).
+   - c) In the `default` branch, assign `state` to a variable of type `never` so the compiler checks you covered every case.
+   - d) Add a 5th state, `empty`, to the union without touching `render`. Read the compiler error and then fix `render`.
+   - e) Write a second function `isFinished(state: RequestState): boolean` that returns true for `success` and `error` only, and make TypeScript narrow correctly inside it.
