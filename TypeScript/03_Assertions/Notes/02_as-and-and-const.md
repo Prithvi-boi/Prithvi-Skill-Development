@@ -190,7 +190,7 @@ departments[0] = "MBA";  // Error
 
 ---
 
-## 5. Practical Example: `as const` with `keyof typeof`
+## 5. Example: `as const` with `keyof typeof`
 
 This combination is especially useful when working with objects and dynamic property access.
 
@@ -306,3 +306,18 @@ type DepartmentKeys = keyof typeof departments;
 
 - `as any` gives TypeScript less information and weakens type safety.
 - `as const` gives TypeScript more precise information and makes the resulting type more restrictive.
+
+# Practice Question -  `as any` and `as const`
+
+1. Using as any: Create an unknown variable containing a string. Use as any to access toUpperCase() and print the result.
+
+2. Debugging: Identify why this code produces a runtime error and fix it without using any.
+```js
+let value: unknown = 100;
+console.log((value as any).toUpperCase());
+```
+3. Object with as const: Create a student object with name, age, and department. Use as const and try modifying its properties.
+
+4. Array with as const: Create an array of five programming languages. Apply as const and try adding or modifying elements.
+
+5. Department Management: Create a departments object using as const. Extract its keys using keyof typeof and create a function that accepts only valid department keys.

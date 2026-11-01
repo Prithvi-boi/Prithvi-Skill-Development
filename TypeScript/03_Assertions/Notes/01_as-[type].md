@@ -219,3 +219,22 @@ let c: string = "Hello";
 ```
 
 **Final takeaway:** Type Assertion changes how TypeScript *treats* a value, not what the value actually *is*.
+
+# Practice Question - Type Assertion (`as`)
+
+1. Primitive Type Assertion: Create an unknown variable containing a string. Use type assertion to treat it as a string and convert it to uppercase.
+
+2. Type Assertion vs Conversion: Create an unknown variable containing "250". Perform both type assertion and type conversion to a number. Print their values and runtime types.
+
+3. Object Type Assertion: Create an interface called Student with name, age, and marks. Create an object and use type assertion to treat it as a Student.
+
+4. DOM Type Assertion: Create an HTML input element. Use document.getElementById() with type assertion to access its .value.
+
+5. Fix the runtime error in the following code:
+```js
+let value: unknown = 100;
+
+let result = value as string;
+
+console.log(result.toUpperCase());
+```
