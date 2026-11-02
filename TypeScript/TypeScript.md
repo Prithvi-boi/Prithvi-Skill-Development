@@ -68,3 +68,13 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - Equality operators - [[Notes]](./05_Narrowing/Notes/03_Equality%20Narrowing%20and%20Type%20Predicates.md)
 - Type predicates `is` or custom type guard - [[Notes]](./05_Narrowing/Notes/03_Equality%20Narrowing%20and%20Type%20Predicates.md)
 - `in` operator - [[Notes]](./05_Narrowing/Notes/04_In_Opps.md)
+
+
+### 06_Functions
+- TypeScript Function - [[Notes]](./06_Functions/Notes/01_Typing_Functions.md)
+- Function Overloading & signature - [[Notes]](./06_Functions/Notes/02_FunctionOverloading.md)
+
+### 07_Interfaces
+- Interfaces - [[Notes]](./07_Interfaces/Notes/01_Interfaces.md)
+- type - [[Notes]](./07_Interfaces/Notes/02_type.md)
+- hybrid type - [[Notes]](./07_Interfaces/Notes/03_Hybrid%20Types.md)
