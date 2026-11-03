@@ -288,3 +288,41 @@ const user: User = {
 **Note:** Index signatures describe the types of properties, not a fixed list of property names.
 
 ---
+
+# Practice Question - Interfaces
+
+- Q1. Employee Details : Concept: Basic Interface
+Create an Employee interface with id, name, salary, and department. Create an employee object and display its details.
+
+- Q2. User Profile : Concept: Optional Properties (?)
+Create a User interface with username, email, and an optional phoneNumber. Create two users, one with a phone number and one without.
+
+- Q3. Bank Account : Concept: Readonly Properties
+Create a BankAccount interface with a readonly accountNumber, holderName, and balance. Try modifying each property and observe the errors.
+
+- Q4. Basic Calculator Concept: Interfaces with Functions
+Create a Calculator interface containing add, subtract, multiply, and divide methods. Implement all four operations.
+
+- Q5. Library Management Concept: Interfaces with Arrays
+Create a Book interface with id, title, author, and isAvailable. Create an array of books and filter out the available books.
+
+- Q6. Person and Teacher Concept: Extending Interfaces
+Create a Person interface and extend it using a Teacher interface. Add subject and salary to Teacher. Create a teacher object.
+
+- Q7. Interface Declaration Merging : Concept: Declaration Merging
+Declare an interface named Product twice. Add id and name in the first declaration, then price and category in the second. Create an object using the merged interface.
+
+- Q8. Dynamic Configuration : Concept: Index Signatures
+Create a Configuration interface that accepts any string property name but only allows string or boolean values. Create a configuration object.
+
+- Q9. Multiple Interface Inheritance: Concept: Extending Multiple Interfaces
+Create PersonalInfo and AcademicInfo interfaces. Extend both using a CollegeStudent interface and create a student object.
+
+- Q10. Shopping Cart : Concept: Combined Interface Concepts
+Create a CartItem interface with:
+    - Readonly productId
+    - productName
+    - price
+    - Optional discount
+    - calculateTotal() method
+Create an array of cart items and calculate their total prices.
