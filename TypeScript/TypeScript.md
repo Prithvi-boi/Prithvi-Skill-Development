@@ -78,3 +78,6 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - Interfaces - [[Notes]](./07_Interfaces/Notes/01_Interfaces.md)
 - type - [[Notes]](./07_Interfaces/Notes/02_type.md)
 - hybrid type - [[Notes]](./07_Interfaces/Notes/03_Hybrid%20Types.md)
+
+### 08_Class
+- Class and constructor
