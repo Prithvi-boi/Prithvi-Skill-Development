@@ -80,4 +80,8 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - hybrid type - [[Notes]](./07_Interfaces/Notes/03_Hybrid%20Types.md)
 
 ### 08_Class
-- Class and constructor
+- Class and constructor - [[Notes]](./08_Class/Notes/01_Class.md)
+- Access Modifiers - [[Notes]](./08_Class/Notes/02_AccessModifers.md)
+- Abstract class and methods - [[Notes]](./08_Class/Notes/03_AbstractClasses.md)
+- Inheritance, Polymorphism and Method overiding - [[Notes]](./08_Class/Notes/04_Inheritance&polymorphism.md)
+- Constructor Overloading - [[Notes]](./08_Class/Notes/05_ConstructorOverloading.md)
