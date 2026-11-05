@@ -552,3 +552,47 @@ It returns a boolean value:
 This is useful when checking the type of an object at runtime.
 
 ---
+
+# TypeScript Classes & Constructors – Practice Questions
+
+## 1. Class
+Create a `Car` class with `brand`, `model`, and `year` properties.
+
+## 2. Creating Objects
+Create two objects from the `Car` class and assign different values to each.
+
+## 3. Constructor
+Create a `Book` class with a constructor that initializes `title` and `author`.
+
+## 4. Constructor Parameters
+Create a `Student` class that accepts `name`, `age`, and `rollNumber` through its constructor.
+
+## 5. `this` Keyword
+Create an `Employee` class and use `this` to assign constructor parameters to its properties.
+
+## 6. Properties and Methods
+Create a `BankAccount` class with a `balance` property and `deposit()` and `displayBalance()` methods.
+
+## 7. Default Parameter Values
+Create a `User` class whose constructor has default values for `name` and `age`.
+
+## 8. Optional Constructor Parameters
+Create a `Product` class with a required `name` and an optional `description`.
+
+## 9. Readonly Properties
+Create a `Student` class with a readonly `rollNumber`. Try changing it after object creation.
+
+## 10. Parameter Properties
+Create a `Laptop` class using constructor parameter properties for `brand`, `ram`, and `price`.
+
+## 11. Static Properties and Methods
+Create a `College` class with a static `collegeName` property and a static method to display it.
+
+## 12. Getters and Setters
+Create a `Temperature` class with a getter and setter for Celsius. Reject values below -273.15.
+
+## 13. Class Expressions
+Create a `Person` class using a class expression and add a method to display the person's name.
+
+## 14. `instanceof` Operator
+Create a `Vehicle` class and check whether an object belongs to that class using `instanceof`.
