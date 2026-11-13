@@ -85,3 +85,26 @@ https://www.typescriptlang.org/docs/handbook/intro.html
 - Abstract class and methods - [[Notes]](./08_Class/Notes/03_AbstractClasses.md)
 - Inheritance, Polymorphism and Method overiding - [[Notes]](./08_Class/Notes/04_Inheritance&polymorphism.md)
 - Constructor Overloading - [[Notes]](./08_Class/Notes/05_ConstructorOverloading.md)
+
+### 09_Generics
+- Generic - [[Notes]](./09_Generics/Notes/01_Generics.md)
+- Generic Types and Generic Constraints - [[Notes]](./09_Generics/Notes/02_Types&Contraints.md)
+
+### 10_Utilities
+
+<a href="https://youtu.be/BhNSauna0eo?si=LHKKV6wURLKs0BJk">
+  <img src="https://img.youtube.com/vi/BhNSauna0eo/maxresdefault.jpg" width="400">
+</a>
+
+https://youtu.be/BhNSauna0eo?si=LHKKV6wURLKs0BJk
+
+- Utility Types - [[Notes]](./10_Utilities/utility-types.md)
+
+
+### 11_Advanced types
+- Mapped types
+- Conditional types
+- Literal types
+- Template Literal types
+- Recursive types
+- [[Notes]](./11_Advanced/AdvancedTypes.md)
